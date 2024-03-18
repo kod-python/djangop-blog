@@ -1,0 +1,18 @@
+
+
+<h1> Details</h1>
+
+<a href="{% url 'trial' %}">trial</a>
+
+{% for feature in features%}
+
+
+<h1>Name is : {{feature.name}}</h1>
+<h1>your age is :{{feature.age}}</h1>
+<h1>{{feature.desc}}</h1> <br>
+
+
+
+{% endfor %}
+
+
