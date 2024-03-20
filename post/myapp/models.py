@@ -11,3 +11,20 @@ class Features(models.Model):
     
  
     desc = models.CharField(max_length = 200)
+    
+    
+
+class Infos:
+    id : int
+    
+    name : str
+    
+    age : int
+    
+    desc : str
+    
+    wealth : int
+    
+    bool : True
+    
+        
